@@ -1,0 +1,50 @@
+{
+  "assassin": "Captain Holt Ironwing",
+  "faction_order": [
+    "Madam Elara Billsworth",
+    "Edmund Huskmere",
+    "Captain Holt Ironwing",
+    "Alistair Quackmore",
+    "Lord Barnaby Quillfeather"
+  ],
+  "faction_status": {
+    "Lord Barnaby Quillfeather": "unknown",
+    "Captain Holt Ironwing": "unknown",
+    "Edmund Huskmere": "unknown",
+    "Madam Elara Billsworth": "unknown",
+    "Alistair Quackmore": "unknown"
+  },
+  "current_node": 1,
+  "allies": [],
+  "clues_found": [
+    "Clue from Billsworth"
+  ],
+  "investigation_responses": {
+    "Madam Elara Billsworth": "'Someone knew his nightly routine well enough to tamper with something prepared specifically for him. That is not a crime of opportunity.' She meets your eyes. 'Ask who else had access to my preparation room.'"
+  },
+  "variants": {
+    "Lord Barnaby Quillfeather": {
+      "guilty": "guilty_b",
+      "innocent": "innocent_b"
+    },
+    "Captain Holt Ironwing": {
+      "guilty": "guilty_b",
+      "innocent": "innocent_a"
+    },
+    "Edmund Huskmere": {
+      "guilty": "guilty_b",
+      "innocent": "innocent_a"
+    },
+    "Madam Elara Billsworth": {
+      "guilty": "guilty_b",
+      "innocent": "innocent_b"
+    },
+    "Alistair Quackmore": {
+      "guilty": "guilty_b",
+      "innocent": "innocent_b"
+    }
+  },
+  "player_faction": "Iron Beaks",
+  "total_points": 80,
+  "accusation": null
+}
