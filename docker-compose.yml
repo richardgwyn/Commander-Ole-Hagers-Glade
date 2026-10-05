@@ -1,0 +1,9 @@
+services:
+  commander-server:
+    image: ${DUCK_SERVER_IMAGE:-commander-server:local}
+    build: .
+    restart: unless-stopped
+    env_file:
+      - ./deploy/server.env
+    ports:
+      - "11940:11940/tcp"

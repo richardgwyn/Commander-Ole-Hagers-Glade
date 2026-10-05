@@ -1,0 +1,23 @@
+[Unit]
+Description=Commander multiplayer game server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=duck
+Group=duck
+WorkingDirectory=/opt/commander
+EnvironmentFile=/etc/duck/server.env
+ExecStart=/opt/commander/.venv/bin/python -m duckserver
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+MemoryMax=600M
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target

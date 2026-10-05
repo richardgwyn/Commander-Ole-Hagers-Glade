@@ -1,0 +1,13 @@
+{
+  "v": 1,
+  "min_client": "1.06",
+  "servers": [
+    {
+      "shard": "A",
+      "name": "Commander",
+      "region": "us",
+      "host": "commander-glade.duckdns.org",
+      "port": 11940
+    }
+  ]
+}
